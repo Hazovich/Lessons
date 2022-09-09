@@ -180,6 +180,7 @@ public class ClacYarik {
             ClacYarik hlpobj = new ClacYarik();
             hlpobj.showMenu();
             choice = cs.next().charAt(0);
+
             while (!hlpobj.isValid(choice)) {
                 System.out.println("Введіть правильне значення");
                 hlpobj.showMenu();
